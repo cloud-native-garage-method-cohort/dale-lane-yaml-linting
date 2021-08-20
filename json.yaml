@@ -1,0 +1,7 @@
+{
+  "testing": "with",
+  "json": "as",
+  "yaml-is": {
+    "superset-of": "json"
+  }
+}
