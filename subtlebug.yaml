@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -36,7 +37,7 @@ spec:
               port: 3000
               scheme: HTTP
             periodSeconds: 10
-            successThreshold 1
+            successThreshold: 1
             timeoutSeconds: 1
           name: express-sample-app
           ports:
